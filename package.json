@@ -1,0 +1,21 @@
+{
+  "name": "hiveinternalmarketapi",
+  "version": "1.0.0",
+  "description": "Builds an API from HIVE data to interface with CoinGecko API for Spot Exchanges",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "hive"
+  ],
+  "author": "disregardfiat",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  }
+}
