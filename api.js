@@ -85,17 +85,6 @@ exports.historical_trades = (req, res, next) => {
         buys: [],
         sells: []
     }
-    /*
-{        
-      trade_id:1234567,
-      price:"50.1",
-      base_volume:"0.1",
-      target_volume:"1",
-      trade_timestamp:"1700050000",
-      type:"buy"
-   }
-
-    */
     var pair = req.params.ticker_id || req.query.ticker_id
     var type = req.query.type
     switch (type) {
